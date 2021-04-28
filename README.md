@@ -6,7 +6,7 @@ To use this algorithm : the data you input (in the pandas.read) needs to be an e
 
 One line is one week of data;
 
-The columns are organised in 10 groups of 12 (one for each deck) as follow : 
+The columns : the first column is the number of the week; the others are organised in 16 groups of 18 (one for each deck, the 'others' category is made of all the decks that did not fit in one of the archetypes), as follows : 
     The first column of the goup is the popularity of the deck, 
     The second is its global winrate
     the other columns are its winrate against the decks (including itself).
